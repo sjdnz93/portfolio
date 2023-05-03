@@ -1,16 +1,29 @@
 import { useEffect } from 'react'
 import axios from 'axios'
 
-const App = () => {
-  useEffect(() => {
-    const getData = async () => {
-      const { data } = await axios.get('/api/products/') // * <-- replace with your endpoint
-      console.log(data)
-    }
-    getData()
-  })
+import About from './components/About'
+import Contact from './components/Contact'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import NavBar from './components/NavBar'
+import Hero from './components/Hero'
 
-  return <h1>Hello World</h1>
+
+
+const App = () => {
+
+  return (
+    <div className='site-wrapper'>
+      <NavBar />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
+    </div>
+  )
 }
 
 export default App
