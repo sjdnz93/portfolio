@@ -7,15 +7,15 @@
 
 body {
   height: 100vh;
-  background-image: url('../images/test-2.avif');
+  background-image: url('../images/test.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-}
 
-section {
-  height: calc(100vh - 56px);
-  background-color: white;
-  margin-bottom: 50vh;
+  section {
+    height: calc(100vh - 56px);
+    background-color: white;
+    margin-bottom: 50vh;
+  }
 }
