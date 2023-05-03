@@ -2,7 +2,10 @@
 const Hero = () => {
 
   return (
-    <h1>HERO</h1>
+
+    <section id='hero'>
+      <h1>HERO</h1>
+    </section>
   )
 }
 

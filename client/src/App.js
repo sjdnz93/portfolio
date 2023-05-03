@@ -1,12 +1,12 @@
 import { useEffect } from 'react'
 import axios from 'axios'
 
+import NavBar from './components/NavBar'
 import About from './components/About'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
-import NavBar from './components/NavBar'
 import Hero from './components/Hero'
 
 
