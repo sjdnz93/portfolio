@@ -14,12 +14,12 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='crate-nav' />
         <Navbar.Collapse id='crate-nav' className='justify-content-end'>
           <Nav>
-            <Link activeClass="active" to="hero" spy={true} smooth={true} offset={50} duration={500}>Hero</Link>
-            <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
-            <Link activeClass="active" to="skills" spy={true} smooth={true} offset={50} duration={500}>Skills</Link>
-            <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500}>Projects</Link>
-            <Link activeClass="active" to="experience" spy={true} smooth={true} offset={50} duration={500}>Experience</Link>
-            <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>Contact</Link>
+            <Link className='nav-link' activeClass="active" to="hero" spy={true} smooth={true} offset={-106} duration={300}>Hero</Link>
+            <Link className='nav-link' activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={300}>About</Link>
+            <Link className='nav-link' activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={300}>Skills</Link>
+            <Link className='nav-link' activeClass="active" to="projects" spy={true} smooth={true} offset={-50} duration={300}>Projects</Link>
+            <Link className='nav-link' activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={300}>Experience</Link>
+            <Link className='nav-link' activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={300}>Contact</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
