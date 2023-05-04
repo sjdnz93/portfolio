@@ -15,13 +15,17 @@ const App = () => {
 
   return (
     <div className='site-wrapper'>
-      <NavBar />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Experience />
-      <Contact />
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
     </div>
   )
 }

@@ -1,34 +1,83 @@
 #hero {
   background-image: url('../../images/test.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   display: flex;
   align-items: center;
   margin-top: 56px;
-}
+  flex-direction: column;
+  margin-bottom: 0;
 
-.image-wrapper {
-  max-width: 25%;
+  .image-wrapper {
+    //change
+    max-width: 100%;
+  
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+  
+  
+    img {
+      max-width: 75%; //change
+  
+      border-radius: 50%;
+      border: solid 2px white;
+      box-shadow: 3px 3px 10px black;
+      flex-grow: 1;
+    }
+  
+  }
 
+  .hero-text-wrapper {
 
-  img {
-    width: 100%;
-    border-radius: 50%;
-    border: solid 2px white;
-    box-shadow: 3px 3px 10px black;
+    text-align: center;
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+      font-size: 10vw; //change
+      color: white;
+      text-shadow: 3px 3px 2px black;
+      padding: 8px; //change  
+    }
   }
 
 }
 
-.hero-text-wrapper {
-  max-width: 70%;
-  text-align: center;
+// ! DESKTOP/TABLET CSS
+@media (min-width: 768px) {
 
-  h1 {
-    font-size: 4vw;
-    color: white;
-    text-shadow: 3px 3px 2px black;
+  #hero {
+    flex-direction: row;
+
+
+    .image-wrapper {
+      width: 30%;
+      margin: 0;
+    }
+
+    .hero-text-wrapper {
+      width: 70%;
+
+      h1 {
+        font-size: 4vw;
+      }
+
+    }
+
   }
+
 }
+
+
+
