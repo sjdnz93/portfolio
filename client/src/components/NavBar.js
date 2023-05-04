@@ -6,6 +6,7 @@ import { Link } from 'react-scroll'
 
 
 
+
 const NavBar = () => {
 
   return (

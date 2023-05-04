@@ -9,7 +9,26 @@
   margin-top: 56px;
 }
 
-#profile-img-container {
-  background-image: url('../../images/profile.jpeg');
-  max-width: 300px;
+.image-wrapper {
+  max-width: 25%;
+
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+    border: solid 2px white;
+    box-shadow: 3px 3px 10px black;
+  }
+
+}
+
+.hero-text-wrapper {
+  max-width: 70%;
+  text-align: center;
+
+  h1 {
+    font-size: 4vw;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+  }
 }

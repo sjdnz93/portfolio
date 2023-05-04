@@ -1,4 +1,6 @@
-import profile from '../images/profile.jpeg'
+import Image from 'react-bootstrap/Image'
+
+import profile from '../images/prof-pic.png'
 
 
 const Hero = () => {
@@ -6,8 +8,16 @@ const Hero = () => {
   return (
 
     <section id='hero'>
-      <img src={profile}></img>
-      <h1>Hi, my name is Simon. I&apos;m a full-stack developer</h1>
+      <div className='image-wrapper'>
+        <Image src={profile} alt='profile-picture' id='profile-picture'></Image>
+      </div>
+
+      <div className='hero-text-wrapper'>
+        <h1>Hi, my name is Simon. I&apos;m a full-stack developer</h1>
+      </div>
+
+
+
     </section>
   )
 }
