@@ -25,3 +25,33 @@
   }
 
 }
+
+// ! DESKTOP/TABLET CSS
+@media (min-width: 768px) {
+
+  #about {
+
+    height: calc(100vh - 50px);
+    justify-content: center;
+
+    .about-h2-container {
+      margin: 0 auto;
+
+      h2 {
+        font-size: 6vw;
+        margin-top: 2%;
+      }
+    }
+  
+    .about-content-container {
+      margin: 0 15%;
+      text-align: justify;
+      margin-top: 2%;
+      
+      p {
+        font-size: 1.5vw;
+      }
+    }
+  }
+
+}
