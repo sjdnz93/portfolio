@@ -210,9 +210,9 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col>
+            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
               <SiTypescript size='100px'></SiTypescript>
-              <p>Bootstrap</p>
+              <p>TypeScript</p>
             </Col>
 
           </Row>
