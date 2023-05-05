@@ -12,6 +12,7 @@
   margin-top: 56px;
   flex-direction: column;
   margin-bottom: 0;
+  //filter: invert(1);
 
   .image-wrapper {
     //change
@@ -32,6 +33,7 @@
       border: solid 2px white;
       box-shadow: 3px 3px 10px black;
       flex-grow: 1;
+      //filter: invert(1);
     }
   
   }

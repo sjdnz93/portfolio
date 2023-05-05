@@ -19,7 +19,7 @@ const NavBar = () => {
             <Link className='nav-link' activeClass="active" to="about" spy={true} smooth={true} offset={-50} duration={600}>About</Link>
             <Link className='nav-link' activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={600}>Skills</Link>
             <Link className='nav-link' activeClass="active" to="projects" spy={true} smooth={true} offset={-50} duration={600}>Projects</Link>
-            <Link className='nav-link' activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={600}>Experience</Link>
+            {/* <Link className='nav-link' activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={600}>Experience</Link> */}
             <Link className='nav-link' activeClass="active" to="contact" spy={true} smooth={true} offset={-50} duration={600}>Contact</Link>
           </Nav>
         </Navbar.Collapse>

@@ -22,7 +22,7 @@ const Projects = () => {
       <Container className='projects-content-container'>
         <Row className='projects-row-wrapper'>
 
-          <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+          <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card className='project-card'>
               {/* <div style={{ backgroundImage: `url('${crate}')` }} className="thumbnail"></div> */}
               <Card.Img variant="top" src={crate} />
@@ -41,7 +41,7 @@ const Projects = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+          <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card className='project-card'>
               {/* <div style={{ backgroundImage: `url('${hagl}')` }} className="thumbnail"></div> */}
               <Card.Img variant="top" src={hagl} />
@@ -59,7 +59,7 @@ const Projects = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+          <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card className='project-card'>
               {/* <div style={{ backgroundImage: `url('${game}')` }} className="thumbnail"></div> */}
               <Card.Img variant="top" src={game} />
@@ -78,7 +78,7 @@ const Projects = () => {
             </Card>
           </Col>
 
-          <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+          <Col xs={12} sm={12} md={4} lg={4} xl={4}>
             <Card className='project-card'>
               {/* <div style={{ backgroundImage: `url('${battleships}')` }} className="thumbnail"></div> */}
               <Card.Img variant="top" src={battleships} />

@@ -1,0 +1,29 @@
+#contact {
+  margin: 0;
+  height: 100%;
+  padding-bottom: 20px;
+
+
+  .contact-h2-container {
+    text-align: center;
+
+    h2 {
+      font-size: 20vw;
+    }
+  }
+
+  .contact-info-container {
+    //margin: 0 40px;
+    display: flex;
+    justify-content: center;
+
+    .info {
+      display: flex;
+      align-items: center;
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 5px;
+      width: 105px;
+    }
+  }
+}
