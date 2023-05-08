@@ -23,7 +23,7 @@ const Skills = () => {
 
 
       <div className='skills-h2-container'>
-        <h2>.skills</h2>
+        <h2>technical skills</h2>
       </div>
 
       <Container className='skills-content-container'>
@@ -35,33 +35,33 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiReact size='100px'></DiReact>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiReact size='50px'></DiReact>
               <p>React</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiJsBadge size='100px'></DiJsBadge>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiJsBadge size='50px'></DiJsBadge>
               <p>JavaScript</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiHtml5 size='100px'></DiHtml5>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiHtml5 size='50px'></DiHtml5>
               <p>HTML</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiCss3 size='100px'></DiCss3>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiCss3 size='50px'></DiCss3>
               <p>CSS</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiSass size='100px'></DiSass>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiSass size='50px'></DiSass>
               <p>Sass</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiBootstrap size='100px'></DiBootstrap>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiBootstrap size='50px'></DiBootstrap>
               <p>Bootstrap</p>
             </Col>
 
@@ -77,38 +77,38 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiPython size='100px'></DiPython>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiPython size='50px'></DiPython>
               <p>Python</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiDjango size='100px'></DiDjango>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiDjango size='50px'></DiDjango>
               <p>Django</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiPostgresql size='100px'></DiPostgresql>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiPostgresql size='50px'></DiPostgresql>
               <p>PostgreSQL</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiMongodb size='100px'></DiMongodb>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiMongodb size='50px'></DiMongodb>
               <p>MongoDB</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <Image src={Mongoose} size='100px' />
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <Image src={Mongoose} size='50px' />
               <p>Mongoose.js</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <SiExpress size='100px'></SiExpress>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <SiExpress size='50px'></SiExpress>
               <p>Express.js</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiNodejsSmall size='100px'></DiNodejsSmall>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiNodejsSmall size='50px'></DiNodejsSmall>
               <p>Node.js</p>
             </Col>
 
@@ -116,7 +116,7 @@ const Skills = () => {
 
         </Row>
 
-        <Row className='skills-row'>
+        {/* <Row className='skills-row'>
 
           <Col className='h3-col'>
             <h3>Other:</h3>
@@ -124,38 +124,38 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <SiInsomnia size='100px'></SiInsomnia>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <SiInsomnia size='50px'></SiInsomnia>
               <p>Insomnia</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <AiOutlineApi size='100px'></AiOutlineApi>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <AiOutlineApi size='50px'></AiOutlineApi>
               <p>RESTful APIs</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiGithubBadge size='100px'></DiGithubBadge>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiGithubBadge size='50px'></DiGithubBadge>
               <p>GitHub</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <VscVersions size='100px'></VscVersions>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <VscVersions size='50px'></VscVersions>
               <p>Version control</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <AiOutlineTeam size='100px'></AiOutlineTeam>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <AiOutlineTeam size='50px'></AiOutlineTeam>
               <p>Pair-programming</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <AiOutlineUnlock size='100px'></AiOutlineUnlock>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <AiOutlineUnlock size='50px'></AiOutlineUnlock>
               <p>Authentications & permissions</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <GiWireframeGlobe size='100px'></GiWireframeGlobe>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <GiWireframeGlobe size='50px'></GiWireframeGlobe>
               <p>Wireframing</p>
             </Col>
 
@@ -171,39 +171,39 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <DiTrello size='100px'></DiTrello>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <DiTrello size='50px'></DiTrello>
               <p>Project management</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <GrCircleAlert size='100px'></GrCircleAlert>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <GrCircleAlert size='50px'></GrCircleAlert>
               <p>Problem solving</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <RiTeamLine size='100px'></RiTeamLine>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <RiTeamLine size='50px'></RiTeamLine>
               <p>Leadership</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <AiOutlineComment size='100px'></AiOutlineComment>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <AiOutlineComment size='50px'></AiOutlineComment>
               <p>Communication</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <GiTeamIdea size='100px'></GiTeamIdea>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <GiTeamIdea size='50px'></GiTeamIdea>
               <p>Collaboration</p>
             </Col>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <TbWritingSign size='100px'></TbWritingSign>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <TbWritingSign size='50px'></TbWritingSign>
               <p>Creative writing</p>
             </Col>
 
           </Row>
 
-        </Row>
+        </Row> */}
 
         <Row className='skills-row'>
 
@@ -213,8 +213,8 @@ const Skills = () => {
 
           <Row className='skills-row-wrapper'>
 
-            <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-              <SiTypescript size='100px'></SiTypescript>
+            <Col xs={3} sm={3} md={3} lg={3} xl={3}>
+              <SiTypescript size='50px'></SiTypescript>
               <p>TypeScript</p>
             </Col>
 
