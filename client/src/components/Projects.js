@@ -15,7 +15,7 @@ const Projects = () => {
     <section className='content-block' id='projects'>
 
       <div className='projects-h2-container'>
-        <h2>.projects</h2>
+        <h2>projects</h2>
         <p>Here&apos;s a snapshot of the projects that I worked on while I was enrolled in General Assembly&apos;s three-month Software Engineering Immersive Course. Given that I only knew some super basic HTML, CSS and JavaScript at the beginning of the course, I&apos;m pretty stoked with how these turned out, and that three months later I can now build full-stack applications from scratch.</p>
       </div>
 
