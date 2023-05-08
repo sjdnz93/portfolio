@@ -1,17 +1,18 @@
 #hero {
-  background-image: url('../../images/test.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  // background-image: url('../../images/test.jpg');
+  // background-repeat: no-repeat;
+  // background-attachment: scroll;
+  // background-position: center;
+  // -o-background-size: cover;
+  // -moz-background-size: cover;
+  // -webkit-background-size: cover;
+  // background-size: cover;
   display: flex;
   align-items: center;
   margin-top: 56px;
   flex-direction: column;
   margin-bottom: 0;
+  background-color: transparent;
   //filter: invert(1);
 
   .image-wrapper {

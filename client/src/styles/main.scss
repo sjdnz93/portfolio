@@ -23,6 +23,15 @@ main {
   section {
     height: calc(100vh - 50px);
     background-color: white;
-    margin-bottom: 50vh;
+    //margin-bottom: 50vh;
+  }
+
+  .drip {
+    width: 100%;
+    margin-bottom: 20vh;
+  }
+
+  .wave {
+    width: 100%;
   }
 }

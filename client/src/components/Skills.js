@@ -14,10 +14,13 @@ import { TbWritingSign } from 'react-icons/tb'
 
 import Mongoose from '../images/Mongoose.js.svg'
 
+
 const Skills = () => {
 
   return (
     <section className='content-block' id='skills'>
+      
+
 
       <div className='skills-h2-container'>
         <h2>.skills</h2>

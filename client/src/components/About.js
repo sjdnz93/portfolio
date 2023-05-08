@@ -1,3 +1,4 @@
+import svg2 from '../images/SVG/2-svg.svg'
 
 const About = () => {
 
@@ -15,7 +16,12 @@ const About = () => {
         <p>I&apos;m looking for opportunities as a software engineer or full&#45;stack developer that will allow me to hone and deploy my skills, and to learn from new teammates who bring a wealth of experience from the field to the table.</p>
       </div>
 
+      
+
+      
+
     </section>
+    
   )
 }
 
