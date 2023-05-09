@@ -35,8 +35,12 @@ const Projects = () => {
                   constructed using the Django REST framework. Full CRUD functionality
                   allows users to follow other users, add records to the public database,
                   populate their collections and more.</Card.Text>
-                <Card.Link href='https://crate.herokuapp.com/' target='_blank'>Check it out</Card.Link>
-                <Card.Link>Here&apos;s the ReadMe</Card.Link>
+                <div>
+                  <Card.Link href='https://crate.herokuapp.com/' target='_blank'>Check it out</Card.Link>
+                </div>
+                <div>
+                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -53,8 +57,12 @@ const Projects = () => {
                   working across the full stack. I played an integral role in figuring out how
                   we&apos;d implement our swap logic on the back-end, and was in the driving
                   seat for most of the site&apos;s design and layout.</Card.Text>
-                <Card.Link href='https://hagl-project-3.herokuapp.com/' target='_blank'>Check it out</Card.Link>
-                <Card.Link>Here&apos;s the ReadMe</Card.Link>
+                <div>
+                  <Card.Link href='https://hagl-project-3.herokuapp.com/' target='_blank'>Check it out</Card.Link>
+                </div>
+                <div>
+                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -72,8 +80,12 @@ const Projects = () => {
                   now confident in using asynchronous functions to access API information
                   and then use it to render content dynamically. It also helped reinforce my
                   knowledge of props, routing, Bootstrap and SCSS.</Card.Text>
-                <Card.Link href='https://react-game-library.netlify.app/' target='_blank'>Check it out</Card.Link>
-                <Card.Link>Here&apos;s the ReadMe</Card.Link>
+                <div>
+                  <Card.Link href='https://react-game-library.netlify.app/' target='_blank'>Check it out</Card.Link>
+                </div>
+                <div>
+                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
@@ -89,8 +101,12 @@ const Projects = () => {
                   version of the classic board game Battleships. It was an incredibly
                   rewarding challenge that really pushed me, and which helped to deepen
                   my love of programming.</Card.Text>
-                <Card.Link href='https://sjdnz93.github.io/battleships/' target='_blank'>Check it out</Card.Link>
-                <Card.Link>Here&apos;s the ReadMe</Card.Link>
+                <div>
+                  <Card.Link href='https://sjdnz93.github.io/battleships/' target='_blank'>Check it out</Card.Link>
+                </div>
+                <div>
+                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                </div>
               </Card.Body>
             </Card>
           </Col>
