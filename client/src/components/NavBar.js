@@ -4,7 +4,6 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-scroll'
 import Image from 'react-bootstrap/Image'
 import logo from '../images/icons/logo-no-background.png'
-import { useState, useEffect } from 'react'
 
 
 
