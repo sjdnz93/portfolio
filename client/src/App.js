@@ -41,7 +41,7 @@ const App = () => {
         <img src={svg8} alt='drip-effect' className='drip'></img>
 
         {/* <Experience /> */}
-        <img src={wave2} alt='wave-effect' className='wave'></img>
+        <img src={wave2} alt='wave-effect' className='wave' id='wave-point'></img>
         <footer id='footer'>
           <Contact />
         </footer>

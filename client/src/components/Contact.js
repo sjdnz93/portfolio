@@ -1,9 +1,20 @@
 import { MdPhoneIphone, MdOutlineMailOutline, MdMailOutline } from 'react-icons/md'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { Button } from 'react'
+import { useState, useEffect } from 'react'
 
 
 const Contact = () => {
+
+  const [ year, setYear ] = useState()
+
+  useEffect(() => {
+    const getYear = () => {
+      const currentDate = new Date()
+      setYear(currentDate.getFullYear())
+    }
+    getYear()
+  }, [])
 
   return (
     <section className='content-block' id='contact'>
@@ -33,10 +44,11 @@ const Contact = () => {
         </a>
 
 
-
-
       </div>
 
+      <div className='credits-container'>
+        <small>&copy; Copyright Simon Davis {year} &#9473; Background image by <a href="https://www.freepik.com/free-vector/hand-drawn-psychedelic-colorful-background_17807024.htm#query=funky%20color&position=0&from_view=keyword&track=ais">Freepik</a></small>
+      </div>
 
     </section>
   )

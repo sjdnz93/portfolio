@@ -17,6 +17,9 @@
 
   .skills-content-container {
 
+    margin-bottom: 2%;
+    margin-top: 2%;
+
 
     .skills-row {
       display: flex;
@@ -76,7 +79,7 @@
     justify-content: center;
 
     .skills-h2-container {
-      margin: 0 auto;
+      // margin: 0 auto;
 
       h2 {
         font-size: 60px;
@@ -116,7 +119,7 @@
     }
 
     .skills-content-container {
-      margin: 0 auto;
+      margin: 2% auto;
 
 
 

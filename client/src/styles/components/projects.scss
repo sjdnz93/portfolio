@@ -11,8 +11,11 @@
     text-align: center;
     margin-left: 40px;
     margin-right: 40px;
-
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 2%;
+    
   }
 
   h2 {
@@ -22,17 +25,20 @@
 
   p {
     font-size: 15px;
+    margin-top: 2%;
   }
 }
 
 .projects-content-container {
+
+  margin-top: 2%;
 
   .projects-row-wrapper {
     flex-wrap: nowrap;
     overflow-x: scroll;
 
     div {
-      margin-bottom: 15px;
+      margin-bottom: 20px;
     }
   }
 
@@ -69,12 +75,12 @@
     text-align: center;
 
     .card-text {
-      height: 120px;
+      height: 100%;
     }
 
     p.card-text {
 
-      font-size: 10px !important;
+      font-size: 10px;
     }
 
     div.link-wrapper {
@@ -118,14 +124,7 @@
       }
     }
 
-    .projects-content-container {
-      margin: 0 auto;
-    }
   }
-
-  // p .card-text {
-  //   font-size: 10px;
-  // }
 
   #projects p {
     font-size: 12px;

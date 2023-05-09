@@ -4,11 +4,24 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-scroll'
 import Image from 'react-bootstrap/Image'
 import logo from '../images/icons/logo-no-background.png'
+import { useState, useEffect } from 'react'
 
 
 
 
 const NavBar = () => {
+
+  const [ active, setActive ] = useState()
+
+  const handleClick = (e) => {
+    if (e.target.className === 'nav-link active') {
+      console.log(e.target.innerText)
+      return
+    } else {
+      console.log(e.target.innerText)
+      setActive('active')
+    }
+  }
 
   return (
     <Navbar bg='light' expand='lg' fixed='top'>
@@ -16,11 +29,11 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls='crate-nav' />
         <Navbar.Collapse id='site-nav' className='justify-content-end'>
           <Nav>
-            <Link className='nav-link' activeClassName="active" to="about" spy={true} smooth={true} offset={-50} duration={600}>about</Link>
-            <Link className='nav-link' activeClassName="active" to="skills" spy={true} smooth={true} offset={-50} duration={600}>skills</Link>
-            <Link className='nav-link' activeClassName="active" to="hero" spy={true} smooth={true} offset={-106} duration={600}><Image src={logo} alt='logo' id='logo-nav'></Image></Link>
-            <Link className='nav-link' activeClassName="active" to="projects" spy={true} smooth={true} offset={-50} duration={600}>projects</Link>
-            <Link className='nav-link' activeClassName="active" to="footer" spy={true} smooth={true} offset={-50} duration={600}>contact</Link>
+            <Link className='nav-link' activeClass='active' to="about" spy={true} smooth={true} offset={-100} duration={600}>about</Link>
+            <Link className='nav-link' activeClass='active' to="skills" spy={true} smooth={true} offset={-100} duration={600}>skills</Link>
+            <Link className='nav-link' activeClass='active' to="hero" spy={true} smooth={true} offset={-106} duration={600}><Image src={logo} alt='logo' id='logo-nav'></Image></Link>
+            <Link className='nav-link' activeClass='active' to="projects" spy={true} smooth={true} offset={-100} duration={600}>projects</Link>
+            <Link className='nav-link' activeClass='active' to="wave-point" spy={true} smooth={true} offset={-390 + 45} duration={600}>contact</Link>
             {/* <Link className='nav-link' activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={600}>Experience</Link> */}
 
           </Nav>
