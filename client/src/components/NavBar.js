@@ -11,18 +11,6 @@ import { useState, useEffect } from 'react'
 
 const NavBar = () => {
 
-  const [ active, setActive ] = useState()
-
-  const handleClick = (e) => {
-    if (e.target.className === 'nav-link active') {
-      console.log(e.target.innerText)
-      return
-    } else {
-      console.log(e.target.innerText)
-      setActive('active')
-    }
-  }
-
   return (
     <Navbar bg='light' expand='lg' fixed='top'>
       <Container>
