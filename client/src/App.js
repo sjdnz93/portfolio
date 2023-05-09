@@ -42,7 +42,7 @@ const App = () => {
 
         {/* <Experience /> */}
         <img src={wave2} alt='wave-effect' className='wave'></img>
-        <footer>
+        <footer id='footer'>
           <Contact />
         </footer>
       </main>

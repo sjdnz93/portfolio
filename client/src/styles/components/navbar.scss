@@ -1,0 +1,34 @@
+header {
+
+  .navbar {
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+  }
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.nav-link {
+  width: 80px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+  //color: #FB598C;
+}
+
+.active {
+  color: #FB598C !important;
+}
+
+.nav-link:hover {
+  color: #FB598C;
+}
+
+
+#logo-nav {
+
+  height: 35px;
+}

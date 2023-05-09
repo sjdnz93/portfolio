@@ -3,6 +3,7 @@
 @import './components/skills.scss';
 @import './components/projects.scss';
 @import './components/contact.scss';
+@import './components/navbar.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;800&display=swap');
 
@@ -11,6 +12,8 @@
   margin: 0 auto;
   font-family: 'Rubik', sans-serif;
 }
+
+
 
 main {
   //height: 100vh;
