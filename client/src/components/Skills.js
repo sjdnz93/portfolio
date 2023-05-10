@@ -5,12 +5,6 @@ import Image from 'react-bootstrap/Image'
 
 import { DiBootstrap, DiCss3, DiDjango, DiGithubBadge, DiHtml5, DiJsBadge, DiMongodb, DiNodejsSmall, DiNpm, DiPostgresql, DiPython, DiReact, DiSass, DiTrello } from 'react-icons/di'
 import { SiExpress, SiInsomnia, SiTypescript } from 'react-icons/si'
-import { AiOutlineApi, AiOutlineTeam, AiOutlineUnlock, AiOutlineComment } from 'react-icons/ai'
-import { VscVersions } from 'react-icons/vsc'
-import { GiWireframeGlobe, GiTeamIdea } from 'react-icons/gi'
-import { GrCircleAlert } from 'react-icons/gr'
-import { RiTeamLine } from 'react-icons/ri'
-import { TbWritingSign } from 'react-icons/tb'
 
 import Mongoose from '../images/Mongoose.js.svg'
 

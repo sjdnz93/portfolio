@@ -1,4 +1,3 @@
-import svg2 from '../images/SVG/2-svg.svg'
 
 import { MdPhoneIphone, MdOutlineMailOutline, MdMailOutline } from 'react-icons/md'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
