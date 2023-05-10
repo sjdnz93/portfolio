@@ -1,29 +1,13 @@
-import Container from 'react-bootstrap/Container'
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
-import { Link } from 'react-scroll'
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="2000.000000pt" height="2250.000000pt" viewBox="0 0 2000.000000 2250.000000"
+ preserveAspectRatio="xMidYMid meet">
 
-
-
-
-
-const NavBar = () => {
-
-  return (
-    <Navbar collapseOnSelect bg='light' expand='md' fixed='top'>
-      <Container>
-        <Navbar.Toggle aria-controls='crate-nav' />
-        <Navbar.Collapse id='site-nav' className='justify-content-end'>
-          <Nav>
-            <Link className='nav-link' activeClass='active' to="about" spy={true} smooth={true} offset={-100} duration={600}>about</Link>
-            <Link className='nav-link' activeClass='active' to="skills" spy={true} smooth={true} offset={-100} duration={600}>skills</Link>
-            <Link className='nav-link' activeClass='active' to="hero" spy={true} smooth={true} offset={-106} duration={600}><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-              width="35px" height="35px" viewBox="0 0 2000.000000 2250.000000"
-              preserveAspectRatio="xMidYMid meet">
-
-              <g transform="translate(0.000000,2250.000000) scale(0.100000,-0.100000)"
-                stroke="none">
-                <path d="M9715 21389 c-324 -17 -730 -59 -1055 -109 -2123 -330 -4193 -1390
+<g transform="translate(0.000000,2250.000000) scale(0.100000,-0.100000)"
+ stroke="none">
+<path d="M9715 21389 c-324 -17 -730 -59 -1055 -109 -2123 -330 -4193 -1390
 -5740 -2939 -220 -221 -396 -412 -584 -636 -147 -174 -155 -182 -122 -120 35
 66 144 194 343 404 159 168 242 270 262 324 6 15 9 27 7 27 -9 0 -287 -314
 -421 -475 -811 -973 -1376 -1943 -1787 -3069 -171 -469 -373 -1220 -383 -1425
@@ -140,11 +124,11 @@ c77 -31 169 -71 205 -90 83 -44 75 -41 -164 56 -109 45 -202 79 -205 75 -3 -3
 m-15917 -9183 c11 -60 20 -126 19 -145 0 -34 -1 -35 -10 -11 -6 14 -19 84 -30
 155 -33 225 -21 225 21 1z m10907 -7982 c-3 -3 -12 -4 -19 -1 -8 3 -5 6 6 6
 11 1 17 -2 13 -5z"/>
-                <path d="M8280 15659 c-35 -14 -78 -57 -103 -104 -20 -37 -22 -57 -25 -267 -4
+<path d="M8280 15659 c-35 -14 -78 -57 -103 -104 -20 -37 -22 -57 -25 -267 -4
 -264 4 -314 63 -371 53 -52 85 -57 351 -57 210 0 244 3 279 19 51 23 101 79
 114 128 15 52 14 465 0 514 -16 52 -64 108 -113 130 -37 17 -69 19 -291 18
 -141 0 -261 -5 -275 -10z"/>
-                <path d="M14069 15647 c-29 -16 -54 -40 -74 -72 l-30 -48 -5 -1193 -5 -1192
+<path d="M14069 15647 c-29 -16 -54 -40 -74 -72 l-30 -48 -5 -1193 -5 -1192
 -80 91 c-215 245 -548 471 -834 566 -208 69 -435 101 -726 101 -387 0 -661
 -55 -935 -186 -381 -183 -668 -475 -870 -888 -87 -179 -132 -300 -181 -493
 -92 -361 -123 -633 -123 -1083 0 -450 31 -722 123 -1083 103 -403 295 -764
@@ -158,7 +142,7 @@ m-15917 -9183 c11 -60 20 -126 19 -145 0 -34 -1 -35 -10 -11 -6 14 -19 84 -30
 -478 -212 -835 -212 -485 0 -804 121 -1077 409 -192 202 -301 419 -392 780
 -78 309 -108 702 -88 1129 13 269 36 445 86 647 89 359 201 584 394 786 227
 239 446 343 847 403 71 10 502 -3 580 -18z"/>
-                <path d="M4595 13888 c-381 -43 -690 -171 -962 -400 -227 -190 -394 -470 -460
+<path d="M4595 13888 c-381 -43 -690 -171 -962 -400 -227 -190 -394 -470 -460
 -770 -27 -124 -24 -397 5 -535 54 -250 140 -421 283 -564 237 -238 595 -405
 1166 -544 664 -162 886 -224 1092 -305 273 -107 446 -232 518 -375 53 -103 65
 -154 70 -291 6 -151 -5 -235 -46 -339 -122 -314 -493 -526 -1026 -585 -118
@@ -171,26 +155,15 @@ m-15917 -9183 c11 -60 20 -126 19 -145 0 -34 -1 -35 -10 -11 -6 14 -19 84 -30
 256 366 411 740 477 121 21 618 17 745 -6 355 -65 571 -207 783 -514 114 -166
 142 -181 328 -182 93 0 142 4 167 15 90 37 135 114 123 207 -23 171 -181 416
 -383 594 -282 248 -665 411 -1081 459 -140 17 -523 18 -657 3z"/>
-                <path d="M8415 13799 c-51 -12 -112 -61 -134 -108 -15 -33 -16 -274 -21 -2766
+<path d="M8415 13799 c-51 -12 -112 -61 -134 -108 -15 -33 -16 -274 -21 -2766
 -5 -2550 -7 -2737 -23 -2833 -45 -261 -91 -367 -211 -488 -114 -115 -204 -157
 -401 -189 -49 -8 -136 -15 -192 -15 -145 0 -195 -13 -248 -64 -53 -51 -65 -90
 -65 -221 0 -160 30 -229 118 -268 42 -18 60 -19 241 -14 383 10 642 84 856
 244 277 207 416 480 498 976 l22 132 3 2725 c2 2469 1 2729 -13 2767 -23 59
 -81 108 -144 122 -61 13 -228 13 -286 0z"/>
-                <path d="M16238 9601 c-83 -26 -133 -87 -148 -177 -13 -78 -13 -487 0 -555 13
+<path d="M16238 9601 c-83 -26 -133 -87 -148 -177 -13 -78 -13 -487 0 -555 13
 -70 50 -123 103 -151 41 -22 49 -23 342 -23 295 0 301 0 348 24 54 26 90 68
 107 126 8 28 10 128 8 325 l-3 285 -28 47 c-18 31 -44 57 -75 75 l-47 28 -290
 2 c-159 1 -302 -2 -317 -6z"/>
-              </g>
-            </svg></Link>
-            <Link className='nav-link' activeClass='active' to="projects" spy={true} smooth={true} offset={-100} duration={600}>projects</Link>
-            <Link className='nav-link' activeClass='active' to="wave-point" spy={true} smooth={true} offset={-390 + 45} duration={600}>contact</Link>
-            {/* <Link className='nav-link' activeClass="active" to="experience" spy={true} smooth={true} offset={-50} duration={600}>Experience</Link> */}
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
-  )
-}
-
-export default NavBar
+</g>
+</svg>

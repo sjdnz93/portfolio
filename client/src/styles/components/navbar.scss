@@ -16,19 +16,21 @@ header {
   text-align: center;
   color: black;
   cursor: pointer;
-  //color: #FB598C;
 }
 
 .active {
   color: #FB598C !important;
+
+  svg {
+    fill: #FB598C;
+  }
 }
+
+svg:hover {
+  fill: #FB598C;
+}
+
 
 .nav-link:hover {
   color: #FB598C;
-}
-
-
-#logo-nav {
-
-  height: 35px;
 }
