@@ -17,14 +17,8 @@
 
 main {
   //height: 100vh;
-  background-image: url('../images/test.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
+  background-image: linear-gradient(to left bottom, #b16bd1, #c961bd, #d959a7, #e45590, #e85579, #f3606b, #fa6f5c, #fc804e, #ff9e44, #ffbe3e, #ffde41, #f4ff54);
+
 
   section {
     height: calc(100vh - 50px);
@@ -42,4 +36,18 @@ main {
   }
 
   
+}
+
+@media (min-width: 768px) {
+  main {
+    background-image: url('../images/test.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+  }
+
 }
