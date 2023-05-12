@@ -59,6 +59,15 @@
 
 }
 
+small a {
+  color: #FB598C;
+  text-decoration: none;
+}
+
+small a:hover {
+  color: #c90945;
+}
+
 // ! DESKTOP/TABLET CSS
 @media (min-width: 768px) {
 

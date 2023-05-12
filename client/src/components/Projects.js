@@ -3,10 +3,10 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Card from 'react-bootstrap/Card'
 
-import crate from '../images/crate.png'
-import hagl from '../images/hagl.png'
-import game from '../images/game-library.png'
-import battleships from '../images/battleships.png'
+import crate from '../images/crate.jpeg'
+import hagl from '../images/hagl.jpeg'
+import game from '../images/game-library.jpeg'
+import battleships from '../images/battleships.jpeg'
 
 
 const Projects = () => {
@@ -36,10 +36,10 @@ const Projects = () => {
                   allows users to follow other users, add records to the public database,
                   populate their collections and more.</Card.Text>
                 <div className='link-wrapper'>
-                  <Card.Link href='https://crate.herokuapp.com/' target='_blank'>Check it out</Card.Link>
+                  <Card.Link href='https://crate.herokuapp.com/' target='_blank' rel='noreferrer'>Check it out</Card.Link>
                 </div>
                 <div className='link-wrapper'>
-                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                  <Card.Link href='https://github.com/sjdnz93/project-4-crate#readme' target='_blank' rel='noreferrer'>Here&apos;s the ReadMe</Card.Link>
                 </div>
               </Card.Body>
             </Card>
@@ -58,10 +58,10 @@ const Projects = () => {
                   we&apos;d implement our swap logic on the back-end, and was in the driving
                   seat for most of the site&apos;s design and layout.</Card.Text>
                 <div className='link-wrapper'>
-                  <Card.Link href='https://hagl-project-3.herokuapp.com/' target='_blank'>Check it out</Card.Link>
+                  <Card.Link href='https://hagl-project-3.herokuapp.com/' target='_blank' rel='noreferrer'>Check it out</Card.Link>
                 </div>
                 <div className='link-wrapper'>
-                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                  <Card.Link href='https://github.com/sjdnz93/project-3/tree/main#readme' target='_blank' rel='noreferrer'>Here&apos;s the ReadMe</Card.Link>
                 </div>
               </Card.Body>
             </Card>
@@ -81,10 +81,10 @@ const Projects = () => {
                   and then use it to render content dynamically. It also helped reinforce my
                   knowledge of props, routing, Bootstrap and SCSS.</Card.Text>
                 <div className='link-wrapper'>
-                  <Card.Link href='https://react-game-library.netlify.app/' target='_blank'>Check it out</Card.Link>
+                  <Card.Link href='https://react-game-library.netlify.app/' target='_blank' rel='noreferrer'>Check it out</Card.Link>
                 </div>
                 <div className='link-wrapper'>
-                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                  <Card.Link href='https://github.com/sjdnz93/react-game-library#readme' target='_blank' rel='noreferrer'>Here&apos;s the ReadMe</Card.Link>
                 </div>
               </Card.Body>
             </Card>
@@ -102,10 +102,10 @@ const Projects = () => {
                   rewarding challenge that really pushed me, and which helped to deepen
                   my love of programming.</Card.Text>
                 <div className='link-wrapper'>
-                  <Card.Link href='https://sjdnz93.github.io/battleships/' target='_blank'>Check it out</Card.Link>
+                  <Card.Link href='https://sjdnz93.github.io/battleships/' target='_blank' rel='noreferrer'>Check it out</Card.Link>
                 </div>
                 <div className='link-wrapper'>
-                  <Card.Link href='#' target='_blank'>Here&apos;s the ReadMe</Card.Link>
+                  <Card.Link href='https://github.com/sjdnz93/battleships#readme' target='_blank' rel='noreferrer'>Here&apos;s the ReadMe</Card.Link>
                 </div>
               </Card.Body>
             </Card>
