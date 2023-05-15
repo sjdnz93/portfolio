@@ -48,20 +48,25 @@
       }
 
       .skills-row-wrapper::-webkit-scrollbar {
-        height: 2px;
+        height: 5px;
         border-radius: 10px;
+       
       }
 
       .skills-row-wrapper::-webkit-scrollbar-track {
         box-shadow: inset 0 0 2px black;
         border-radius: 10px;
+        background: white;
       }
 
       .skills-row-wrapper::-webkit-scrollbar-thumb {
         border-radius: 10px;
         border: solid;
         width: 30px;
+        scrollbar-color: black;
       }
+
+     
 
       
     }

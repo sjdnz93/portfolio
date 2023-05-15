@@ -5,6 +5,11 @@ import Image from 'react-bootstrap/Image'
 
 import { DiBootstrap, DiCss3, DiDjango, DiGithubBadge, DiHtml5, DiJsBadge, DiMongodb, DiNodejsSmall, DiNpm, DiPostgresql, DiPython, DiReact, DiSass, DiTrello } from 'react-icons/di'
 import { SiExpress, SiInsomnia, SiTypescript } from 'react-icons/si'
+import { GrCircleAlert } from 'react-icons/gr'
+import { RiTeamLine } from 'react-icons/ri'
+import { AiOutlineComment } from 'react-icons/ai'
+import { GiTeamIdea } from 'react-icons/gi'
+import { TbWritingSign } from 'react-icons/tb'
 
 import Mongoose from '../images/Mongoose.js.svg'
 
@@ -155,7 +160,7 @@ const Skills = () => {
 
           </Row>
 
-        </Row>
+        </Row> */}
 
         <Row className='skills-row'>
 
@@ -197,7 +202,7 @@ const Skills = () => {
 
           </Row>
 
-        </Row> */}
+        </Row>
 
         <Row className='skills-row'>
 
